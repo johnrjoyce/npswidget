@@ -1,4 +1,4 @@
-#Example code for using the NPS Widget
+#summary Example code for using the NPS Widget
 
 = Introduction =
 
