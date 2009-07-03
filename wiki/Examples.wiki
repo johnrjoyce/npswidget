@@ -21,11 +21,22 @@ The NPS Widget can be embedded in any web page by inserting the following lines 
 
 = Basic Parameters =
 
-  * nps_project_id - Project ID
-  * nps_project_name - Project name descriptor
+  *nps_project_id - Project ID
+  *nps_project_name - Project name descriptor
 
 At a minimum an end user should include both the "nps_project_id" and "nps_project_name" parameters. 
 
 The project ID is the numeric ID value that is associated with the project name in the MySQL database project table. 
 
 The project name descriptor is displayed within the text that appears above the NPS recommendation rating scale in the widget. The default text reads: "How likely is it that you would recommend this to a friend or colleague?" But with the project name descriptor parameter specified by the end user, using our example above the text would read: "How likely is it that you would recommend My Project to a friend or colleague?" 
+
+= Optional Parameters =
+
+There are several optional parameters that are available to users with version 1.0 of the widget. These parameters are used to specify widget background(s), border and font color. 
+
+  *nps_background_url - URL of a background image for the entire widget 
+  *nps_background_top_url - URL of a background image for the top (rating) portion of the widget 
+  *nps_background_bottom_url - URL of a background image for the bottom (feedback) portion of the widget 
+  *nps_border - Solid black border 
+  *nps_font_color - Font color for text 
+  *nps_language - Language to use 
