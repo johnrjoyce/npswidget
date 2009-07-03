@@ -1,8 +1,20 @@
 #summary Example code for using the NPS Widget
 
-= Introduction =
+= Widget Usage =
 
-Add your content here.
+The NPS Widget can be embedded in any web page by inserting the following lines in the page: 
+
+<script type="text/javascript">
+   nps_project_id = 3;
+   nps_project_name = "My Project";
+   nps_background_url = "http://<path_to_background>";
+   nps_background_top_url = "http://<path_to_background_top>";
+   nps_background_bottom_url = "http://<path_to_background_bottom>";
+   nps_border = "y";
+   nps_font_color = "336699";
+</script>
+
+<script type="text/javascript" src="http://<widgethost>/nps_widget/nps_widget-1.0.js"></script>
 
 
 = Details =
