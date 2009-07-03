@@ -39,4 +39,4 @@ There are several optional parameters that are available to users with version 1
   *nps_background_bottom_url - URL of a background image for the bottom (feedback) portion of the widget 
   *nps_border - Solid black border 
   *nps_font_color - Font color for text 
-  *nps_language - Language to use ([WidgetLanguage more information])
+  *nps_language - Language to use ([WidgetLanguages more information])
