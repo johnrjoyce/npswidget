@@ -4,6 +4,7 @@
 
 The NPS Widget can be embedded in any web page by inserting the following lines in the page: 
 
+{{{
 <script type="text/javascript">
    nps_project_id = 3;
    nps_project_name = "My Project";
@@ -15,7 +16,7 @@ The NPS Widget can be embedded in any web page by inserting the following lines 
 </script>
 
 <script type="text/javascript" src="http://<widgethost>/nps_widget/nps_widget-1.0.js"></script>
-
+}}}
 
 = Details =
 
