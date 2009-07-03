@@ -51,3 +51,44 @@ The font color is entered in standard RGB hexadecimal value format.
 = Generate Starting Code =
 
 When creating the NPS project via the admin interface, an initial code snippet is provided to use as the basis for the widget deployment. This code can then be modified to customise the widget as required.
+
+
+= Usage Examples =
+
+This example will set the background of the entire widget to the specified image and display a solid black border. 
+
+{{{
+<script type="text/javascript">
+   nps_project_id = 3;
+   nps_project_name = "My Project";
+   nps_background_url = "http://<widgethost>/nps_widget/backgrounds/bubbles.jpg";
+   nps_border = "y";
+</script>
+
+<script type="text/javascript" src="http://<widgethost>/nps_widget/nps_widget-1.0.js"></script>
+}}}
+
+This example will set the background of the top and bottom portions of the widget to the specified images. 
+
+{{{
+<script type="text/javascript">
+   nps_project_id = 3;
+   nps_project_name = "My Project";
+   nps_background_top_url = "http://<widgethost>/nps_widget/backgrounds/green1x1.gif";
+   nps_background_bottom_url = "http://<widgethost>/nps_widget/backgrounds/green1x1.gif";
+</script>
+
+<script type="text/javascript" src="http://<widgethost/nps_widget/nps_widget-1.0.js"></script>
+}}}
+
+This example will set the font color to blue. No background or border parameter is specified in this example so the default white background will be displayed along with the default dotted border. 
+
+{{{
+<script type="text/javascript">
+   nps_project_id = 3;
+   nps_project_name = "My Project";
+   nps_font_color = "1144cc";
+</script>
+
+<script type="text/javascript" src="http://<widgethost>/nps_widget/nps_widget-1.0.js"></script>
+}}}
