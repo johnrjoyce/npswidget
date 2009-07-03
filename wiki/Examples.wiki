@@ -21,8 +21,8 @@ The NPS Widget can be embedded in any web page by inserting the following lines 
 
 = Basic Parameters =
 
-* nps_project_id - Project ID
-* nps_project_name - Project name descriptor
+  * nps_project_id - Project ID
+  * nps_project_name - Project name descriptor
 
 At a minimum an end user should include both the "nps_project_id" and "nps_project_name" parameters. 
 
