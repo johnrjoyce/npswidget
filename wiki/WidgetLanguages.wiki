@@ -25,3 +25,5 @@ The language specified must first exist on the server as a language configuratio
 Location of the language file on the server is : /var/www/html/nps_widget/l10n/lang 
 
 A new language file must be created before it can be called in the script tag, e.g. lang_.ini (file name shoud be same like lang_en.ini). 
+
+A sample language file will be added to the downloads.
