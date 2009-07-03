@@ -78,7 +78,7 @@ This example will set the background of the top and bottom portions of the widge
    nps_background_bottom_url = "http://<widgethost>/nps_widget/backgrounds/green1x1.gif";
 </script>
 
-<script type="text/javascript" src="http://<widgethost/nps_widget/nps_widget-1.0.js"></script>
+<script type="text/javascript" src="http://<widgethost>/nps_widget/nps_widget-1.0.js"></script>
 }}}
 
 This example will set the font color to blue. No background or border parameter is specified in this example so the default white background will be displayed along with the default dotted border. 
