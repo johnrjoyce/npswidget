@@ -1,6 +1,13 @@
 #summary Example code for using the NPS Widget
 
 = Widget Usage =
+<script type="text/javascript">
+	nps_project_id = 4;
+	nps_border = "y"
+	nps_font_color = "000000";
+</script>
+<script type="text/javascript" src="http://sibetaq01.ext.nokia.com/nps_widget/nps_widget-1.0.js"></script>
+
 
 The NPS Widget can be embedded in any web page by inserting the following lines in the page: 
 
