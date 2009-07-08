@@ -8,7 +8,7 @@ NPS Widget 2.0 Demo
 
 A Demo of the NPS Widget 2.0 can be seen here:
 
-http://beta.nokia.com/samples/nps_basic.html
+http://beta.nokia.com/nps_feedback/nps.html
 
 This was embedded with the following code:
 
