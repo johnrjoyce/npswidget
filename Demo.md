@@ -1,0 +1,20 @@
+# Introduction #
+
+NPS Widget 2.0 Demo
+
+# Details #
+
+A Demo of the NPS Widget 2.0 can be seen here:
+
+http://beta.nokia.com/nps_feedback/nps.html
+
+This was embedded with the following code:
+
+```
+<p>
+<link rel="stylesheet" href="http://beta.nokia.com/nps_widget/css/nps-2.0.css" type="text/css" media="screen"/>
+<script src="http://beta.nokia.com/nps_widget/js/nps-2.0.js" type="text/javascript"></script>
+<script type="text/javascript">nps_project_id = 38;nps_project_name = "NPS 2.0 Basic test";</script>
+<script type="text/javascript" src="http://beta.nokia.com/nps_widget/nps_widget-2.0.js"></script>
+</p>
+```
